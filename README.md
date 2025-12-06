@@ -32,4 +32,4 @@ This repository contains all files used during the process.
      - You don’t need to install NGINX yourself — it’s preinstalled in the base image.
      - alpine is a small Linux distribution, so the image is compact.
   COPY site/ /usr/share/nginx/html
-  
+  (i'll finish the rest some other time)
