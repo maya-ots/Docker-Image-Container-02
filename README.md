@@ -19,3 +19,17 @@ This repository contains all files used during the process.
 ## Running the Container
 ## Publishing to Docker Hub
 ## Repository Structure
+
+## what i learned : 
+  FROM nginx:alpine
+    What it does:
+     -  Declares the base image for your image. You’re saying: “Start from the official nginx image, specifically the small alpine variant.”
+     - nginx:alpine already contains:
+     - the NGINX web server executable,
+     - a configuration (/etc/nginx/nginx.conf) with defaults,
+     - a default document root: /usr/share/nginx/html.
+    Why use it :
+     - You don’t need to install NGINX yourself — it’s preinstalled in the base image.
+     - alpine is a small Linux distribution, so the image is compact.
+  COPY site/ /usr/share/nginx/html
+  
