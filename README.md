@@ -16,7 +16,14 @@ The objective is to demonstrate a complete end-to-end Docker workflow and valida
 This repository contains all files used during the process.
 ## Dockerfile
 ## Building the Image
+<img width="1182" height="152" alt="Capture d&#39;écran 2025-12-07 000817" src="https://github.com/user-attachments/assets/673eb973-c701-4192-a098-4443f9758670" />
+
+
 ## Running the Container
+
+
+<img width="1181" height="118" alt="Capture d&#39;écran 2025-12-07 000537" src="https://github.com/user-attachments/assets/7e9bfcc8-30e0-4314-aa02-772826d54ee9" />
+
 ## Publishing to Docker Hub
 ## Repository Structure
 
